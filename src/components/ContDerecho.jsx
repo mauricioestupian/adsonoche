@@ -1,10 +1,11 @@
-import Button from "react-bootstrap/Button";
+import { Outlet } from "react-router-dom";
 
-const ContDerecho = () => (
-  <section>
-    <h2>Contenido Principal</h2>
-    <p>Aquí va el contenido dinámico.</p>
-    <Button variant="outline-warning">Warning</Button>
-  </section>
-);
+function ContDerecho() {
+  return (
+    <section>
+      <h1>Contenido</h1>
+      <Outlet />
+    </section>
+  );
+}
 export default ContDerecho;

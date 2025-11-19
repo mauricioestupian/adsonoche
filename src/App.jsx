@@ -23,10 +23,10 @@ function App() {
       </Row>
       <main>
         <Row>
-          <Col>
+          <Col sm={4}>
             <ContIzquierdo />
           </Col>
-          <Col>
+          <Col sm={8}>
             <ContDerecho />
           </Col>
         </Row>
